@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>1E6B8991-426F-4F1E-BFE2-20039E151DB5</UUID>
+        <nextObjectID>102</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>481</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Connection</key>
+                        <data>
+		1B9/BNogjWB1+aneZt2uEUx6cNcp2N6XF0yF9ngMHJg=
+		</data>
+                        <key>Database</key>
+                        <data>
+		7OXRnTfZ7c8EXuiFlemdTK7X+1rOHNz9Qu7HnBKV/0w=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="CONNECTION" id="z102">
+        <attribute name="servers" type="string"></attribute>
+        <attribute name="repl_name" type="string"></attribute>
+        <attribute name="usessh" type="int16">0</attribute>
+        <attribute name="userepl" type="int16">0</attribute>
+        <attribute name="sshuser" type="string"></attribute>
+        <attribute name="sshport" type="int16">22</attribute>
+        <attribute name="sshpassword" type="string"></attribute>
+        <attribute name="sshkeyfile" type="string"></attribute>
+        <attribute name="sshhost" type="string"></attribute>
+        <attribute name="hostport" type="int16">17017</attribute>
+        <attribute name="host" type="string">127.0.0.1</attribute>
+        <attribute name="defaultdb" type="string"></attribute>
+        <attribute name="bindport" type="int16">8888</attribute>
+        <attribute name="bindaddress" type="string">127.0.0.1</attribute>
+        <attribute name="alias" type="string">localhost</attribute>
+        <attribute name="adminuser" type="string"></attribute>
+        <attribute name="adminpass" type="string"></attribute>
+        <relationship name="databases" type="0/0" destination="DATABASE"></relationship>
+    </object>
+</database>

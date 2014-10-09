@@ -1,0 +1,2297 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>6AF99460-C759-40CE-8940-064C83988B2B</UUID>
+        <nextObjectID>262</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>481</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Collection</key>
+                        <data>
+		GCUevEHPWmtpyZloR+WjBKH0nSYPq1GlGwUxcaRISDw=
+		</data>
+                        <key>Favorite</key>
+                        <data>
+		VFzVY9HdSSjBvztQlhq9EfArF1ANkYIRNcR17a+xZNg=
+		</data>
+                        <key>HistoryCollection</key>
+                        <data>
+		Hmok5SMYCPLFb5SOJKJY5wtqAm++/7K7fdGp5TEbxDw=
+		</data>
+                        <key>Object</key>
+                        <data>
+		VRlsqgs1MJtfs/7LHgkTHdN1k36dwwzIdR0+Lkvhn/4=
+		</data>
+                        <key>SecureAttribute</key>
+                        <data>
+		coGUFuqrt2JJUO/CcPEBuRKU+5LHLD8X69CzRb8dQVU=
+		</data>
+                        <key>StoreIdentity</key>
+                        <data>
+		3GQJzN3O9t1cEF9xuRdt/Q48YIZAEyloKZdSjSE0Kmw=
+		</data>
+                        <key>SyncRecord</key>
+                        <data>
+		VDtxR3+ZtE308TJaFmTunNWrCHH9hl4Ud1zFt9rZABc=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>Favorites105</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="HISTORYCOLLECTION" id="z102">
+        <attribute name="maximumcount" type="int32">10</attribute>
+        <attribute name="name" type="string">untitled folder</attribute>
+        <attribute name="index" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">89EA0726-069A-45E4-9036-7CA599C30F6C</attribute>
+        <attribute name="modificationdate" type="date">410893610.15911298990249633789</attribute>
+        <attribute name="creationdate" type="date">410460681.64760702848434448242</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z261 z257 z262"></relationship>
+    </object>
+    <object type="STOREIDENTITY" id="z103">
+        <attribute name="passphrasehashdata" type="binary">B/BMu9yZpNHiXqSFtn014aMveUtbZkQSfmegEiAjQL0=
+</attribute>
+        <attribute name="modificationdate" type="date">411147874.68312799930572509766</attribute>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z105">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7L/0CK8LcWvwSJI3l+8b1LedOKfp2ZAJKEI7n7k03ONnELhM4jTxV84moi7gujQxQHIGYpWyT8xYJg45q4Yr4NJmdRgHUctgvF7jiHO2PD4W9xjUtdpdlzyoHf1dghV7h7bFTU3w/epdu3HHnSMpp2gNhm30nnoo4+Ge50S64M+s
+</attribute>
+        <attribute name="uuidstring" type="string">9915DB8B-77DD-427C-B6D0-840091F6230C</attribute>
+        <attribute name="modificationdate" type="date">410460703.47867500782012939453</attribute>
+        <attribute name="creationdate" type="date">397152311.40314501523971557617</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z248"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z106">
+        <attribute name="username" type="string">napapijri</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://clients.wednesday-london.com/napapijri/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">napapijri on ftp.wednesday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">7</attribute>
+        <attribute name="uuidstring" type="string">88B9AED8-2E76-4DED-B16D-0CA3C9509DB8</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.92876100540161132812</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z129"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z107">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7HHRHNsJff1RwqMbjA++S6Mzu/t7nlw7hXEtZ02aKpITfhR0w6U996cJN3spKWgN6sNESE/653YI+qeB3adF8Ldj4FG2rfWUr6F7Hfna1PwBxktAzbGgN7dxomgdxaMO/Q==
+</attribute>
+        <attribute name="uuidstring" type="string">2B923FDA-D91C-4D19-8414-1E4F5980D4F4</attribute>
+        <attribute name="modificationdate" type="date">410460703.48515701293945312500</attribute>
+        <attribute name="creationdate" type="date">395572058.83257502317428588867</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z224"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z108">
+        <attribute name="username" type="string">wednesdaylondon</attribute>
+        <attribute name="server" type="string">174.143.45.110</attribute>
+        <attribute name="remoteurl" type="string">http://clients.wednesday-london.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">Rackspace Sites SFTP (IP address)</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">E9BA8CB2-21D5-4052-BA99-DF67AD52948B</attribute>
+        <attribute name="modificationdate" type="date">410460703.48032498359680175781</attribute>
+        <attribute name="creationdate" type="date">382536193.69135397672653198242</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z175"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z109">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7C84uLM6+p4hO0q3++ybOXrUGUOD7jt7XvEjIfzxDbOs0upap39FSXmngaMPKspKvCgnk11Hj4+bJZcl5Vl2NlDPkP6QGWFFluRFxgWaLNjexR4GoOtTTzYhzmoJlpQL2Q==
+</attribute>
+        <attribute name="uuidstring" type="string">D40D30D3-ECC6-401E-845C-B664AF53D9D6</attribute>
+        <attribute name="modificationdate" type="date">410460703.47591102123260498047</attribute>
+        <attribute name="creationdate" type="date">395572058.83389097452163696289</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z218"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z110">
+        <attribute name="username" type="string">wednesdayprojects</attribute>
+        <attribute name="server" type="string">alpha.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">wednesdayprojects@alpha.wednesdayagency.com (198.61.230.164)</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">470D3473-77F7-4CC9-A629-F09F6ABDF4CE</attribute>
+        <attribute name="modificationdate" type="date">410460703.47973501682281494141</attribute>
+        <attribute name="creationdate" type="date">389876477.17653900384902954102</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z215"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z190"></relationship>
+    </object>
+    <object type="FAVORITE" id="z111">
+        <attribute name="username" type="string">AKIAJUOJ2EKKJ7RVYOYA</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">estee-lauder on s3.amazonaws.com</attribute>
+        <attribute name="initialremotepath" type="string">file-transfer-estee-lauder</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">4</attribute>
+        <attribute name="uuidstring" type="string">007625DF-EF9C-4F59-925F-383CA13B23F1</attribute>
+        <attribute name="modificationdate" type="date">410460703.47492998838424682617</attribute>
+        <attribute name="creationdate" type="date">402409920.81977200508117675781</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z155"></relationship>
+    </object>
+    <object type="FAVORITE" id="z112">
+        <attribute name="username" type="string">sistersadmin</attribute>
+        <attribute name="server" type="string">itrak.se</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">21</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">Sisters</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">BC14FBB6-71C7-46D3-A381-15352F2055D6</attribute>
+        <attribute name="modificationdate" type="date">410460703.47643101215362548828</attribute>
+        <attribute name="creationdate" type="date">382536195.59576499462127685547</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z172"></relationship>
+    </object>
+    <object type="FAVORITE" id="z113">
+        <attribute name="username" type="string">chanel1</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://clients.wednesday-london.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">chanel on ftp.wednesday-london.com</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">11</attribute>
+        <attribute name="uuidstring" type="string">8FD98410-EE02-4C22-AA7C-B3E16A932948</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.40522700548171997070</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z247"></relationship>
+    </object>
+    <object type="FAVORITE" id="z114">
+        <attribute name="username" type="string">eunsunhwang</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">eunsunhwang on ftp.wednesday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">4</attribute>
+        <attribute name="uuidstring" type="string">205A3444-4D43-452B-9E81-34715B73E937</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.75604599714279174805</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z207"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z115">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7CDzLmUdd4QC5YY+sQWTXfQIdbmW2DrY6VGSX/EGZeaGX37MWyDJifAtS9XM5B0SXkf7wAlN5eC8spgi89JqJQo65GekQ0hz/sPfEWxyBn57C1AkDOovkcSo7pAPApa6Cw==
+</attribute>
+        <attribute name="uuidstring" type="string">D4B3AA79-3452-4317-8A71-3232C93F9791</attribute>
+        <attribute name="modificationdate" type="date">410460703.47512900829315185547</attribute>
+        <attribute name="creationdate" type="date">395572058.85482501983642578125</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z186"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z116">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7JfjZYyr/pmRDj2YEe2AxvzkL6bnZRrTa46hgAs2YiaDeYJ3GRnihwC/wDx7QEw9Y0a5ypcR2JEdBZU8ESOHUf1irUz+nsePhs8a6deu4RWb2H+b19oEHrsgV/gA3Gdjuw==
+</attribute>
+        <attribute name="uuidstring" type="string">0B8B4B59-B2B5-4617-9E34-B5397BC97FD5</attribute>
+        <attribute name="modificationdate" type="date">410460703.47679698467254638672</attribute>
+        <attribute name="creationdate" type="date">395572058.84035098552703857422</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z253"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z117">
+        <attribute name="username" type="string">manifest</attribute>
+        <attribute name="server" type="string">ftp.evermanifesto.com</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">21</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">manifest@evermanifesto.com</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">7</attribute>
+        <attribute name="uuidstring" type="string">1E01F3A7-A7C4-49CE-A017-ACF77C60853D</attribute>
+        <attribute name="modificationdate" type="date">410460703.47528302669525146484</attribute>
+        <attribute name="creationdate" type="date">382536194.21207898855209350586</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z161"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z118">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7MM6caG8ADIPDqS1qnlX98AqnqNyzBDBPKyhlSba/w87TUf0oL/CIyQhfOmuVIShE0R6LqoiEgqVb7vFfCYgMzH3V3NE1AcpywC77TjzIfnVN+TZmFVHIbmYn4ZBdk0kpOWtpUBwyVwqDUBvAAx6/6SBFNEs/XhKOQFP+TkED8/v
+</attribute>
+        <attribute name="uuidstring" type="string">741AC8F9-D566-4B8B-BF65-04BDD16C4C18</attribute>
+        <attribute name="modificationdate" type="date">410460703.47733801603317260742</attribute>
+        <attribute name="creationdate" type="date">397068584.07287102937698364258</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z235"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z119">
+        <attribute name="username" type="string">AKIAITYASOAH3LCOZM5Q</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">s3.amazonaws.com</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karlpodger/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">48ED1037-7FC3-45EC-808A-FC1C0AA4EDC4</attribute>
+        <attribute name="modificationdate" type="date">410460703.48153299093246459961</attribute>
+        <attribute name="creationdate" type="date">382536194.10057699680328369141</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z189"></relationship>
+    </object>
+    <object type="COLLECTION" id="z120">
+        <attribute name="name" type="string">Projects (active)</attribute>
+        <attribute name="index" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">963AB985-DF89-48CA-9156-58956C20B339</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536195.12410402297973632812</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z213"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z121">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7C8jxU1khmVUTzmDrrgpLm6tDnDfE8gB4vHXD2D3ir19vVFnvH5zL3UYXNKi4J0v+CCZOQdHPqSnSY37jmqYeFzicK4OMstsTsyaAieyLhv1L0V1z41C/DtA0476BnFVng==
+</attribute>
+        <attribute name="uuidstring" type="string">55E11C2D-5B24-4278-A094-9F08FBD39D11</attribute>
+        <attribute name="modificationdate" type="date">410460703.48131299018859863281</attribute>
+        <attribute name="creationdate" type="date">395572058.83498698472976684570</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z205"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z122">
+        <attribute name="username" type="string">balenciaga_dev</attribute>
+        <attribute name="server" type="string">204.12.99.8</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">balenciaga_dev</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">15</attribute>
+        <attribute name="uuidstring" type="string">3D01DE5C-1B87-480B-A127-E9792DACA0DB</attribute>
+        <attribute name="modificationdate" type="date">410460703.48052299022674560547</attribute>
+        <attribute name="creationdate" type="date">382536195.41621202230453491211</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z150"></relationship>
+    </object>
+    <object type="FAVORITE" id="z123">
+        <attribute name="username" type="string">AKIAIUSWYRBKNAAA7VUA</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">wednesday on s3.amazonaws.com</attribute>
+        <attribute name="initialremotepath" type="string">file-transfer-wednesday</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">6</attribute>
+        <attribute name="uuidstring" type="string">5F918AA5-43C0-4C05-89F9-6508D5FF286D</attribute>
+        <attribute name="modificationdate" type="date">410460703.48070901632308959961</attribute>
+        <attribute name="creationdate" type="date">405365916.13978099822998046875</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z200"></relationship>
+    </object>
+    <object type="FAVORITE" id="z124">
+        <attribute name="username" type="string">saturday</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/ourjourney2012/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">saturday on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">BABB0D9E-05EC-4702-9EC5-EA2E34CBD47D</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382539151.63333100080490112305</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z173"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z125">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7BrRWQntITnuHVvOTXaqEiuNUppsE8OIO3riH/OZETbNwpVgO4M+a9/187/WIJlA5zmj+gQX9LQjC/VPbnH0x1TawjhU+uXG0Xdl0+iX66K0ZEyzFga1qBD6mGxgBUChHWY3q1zl4sjMOdhbUgzAA6M=
+</attribute>
+        <attribute name="uuidstring" type="string">441AA1ED-AD82-4BA2-96EC-6A29576DF194</attribute>
+        <attribute name="modificationdate" type="date">410460703.47389298677444458008</attribute>
+        <attribute name="creationdate" type="date">395572058.84809702634811401367</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z249"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z126">
+        <attribute name="username" type="string">AKIAIHNDV7DWUHTOC7NA</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">moncler on S3</attribute>
+        <attribute name="initialremotepath" type="string">/file-transfer-moncler</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">12</attribute>
+        <attribute name="uuidstring" type="string">1DD6A2FE-76DA-4134-8753-19366DF9D95F</attribute>
+        <attribute name="modificationdate" type="date">410460703.48236501216888427734</attribute>
+        <attribute name="creationdate" type="date">395110644.71123898029327392578</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z241"></relationship>
+    </object>
+    <object type="FAVORITE" id="z128">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">198.61.230.164</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">root@alpha.wednesdayagency.com (198.61.230.164)</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">0AFB5E9D-7327-4D1E-8C01-EE4D87DC59C2</attribute>
+        <attribute name="modificationdate" type="date">410460703.48282301425933837891</attribute>
+        <attribute name="creationdate" type="date">382536193.88014298677444458008</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z152"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z129">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7G0qU7lonnSjeTMXWJTL3owWBBXzIyraVO6MhQyDtiKnjbCqFvmWdh+cjr4lZSNzsZtZr9TGgHQN13ZmdR0bowzxPDkHfMy5A1Fb14VilVwliYt+LiDd0Qg4ZiBk/i199Q==
+</attribute>
+        <attribute name="uuidstring" type="string">8FD4A84B-9C82-43E8-AB1D-CAA4E4D9495B</attribute>
+        <attribute name="modificationdate" type="date">410460703.47459298372268676758</attribute>
+        <attribute name="creationdate" type="date">395572058.85851502418518066406</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z106"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z130">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7O63JplsDgSoScWqB2E3DO++57I4kZFmy0HNKlaW5ExWEwVYs9taWsuHs+PTkWPZD7zRcu0awPbXP+7vt+QRkmqV2UtC/tV9SOVfouz5WOGwV7HJKf9oVgg7nPqJUtlk9Q==
+</attribute>
+        <attribute name="uuidstring" type="string">B1D42731-AD81-4DDA-8D82-74C33073633E</attribute>
+        <attribute name="modificationdate" type="date">410460703.47956198453903198242</attribute>
+        <attribute name="creationdate" type="date">395572058.80408197641372680664</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z181"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z131">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7KdYhVgdB16BBkPv3rQtuJbYTUt/2dxSnCKa8HrvEWsEEdwk06W0q5cP9aE51hoRFFm3mSq4QQckrkrznrE+tnEw14hBo3MUxaZbh/2dVujPey52LRHAShVSR8p0bQ4w2A==
+</attribute>
+        <attribute name="uuidstring" type="string">1B618C90-8D3E-453A-ACF6-990B6B8FB230</attribute>
+        <attribute name="modificationdate" type="date">410460703.47627699375152587891</attribute>
+        <attribute name="creationdate" type="date">395572058.88203102350234985352</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z195"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z132">
+        <attribute name="username" type="string">AMG</attribute>
+        <attribute name="server" type="string">service.brioni.org</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">Brioni</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">5</attribute>
+        <attribute name="uuidstring" type="string">2E253EFE-E8D2-4DA6-BFC9-7549F13E5603</attribute>
+        <attribute name="modificationdate" type="date">410460703.48321700096130371094</attribute>
+        <attribute name="creationdate" type="date">382536195.64958500862121582031</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z202"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z133">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7BhHMh7A9nvHvjttXwNkCGSk7jK/lm09T+qJxH9bjEFEXkI9f4uYBa+OtlweWrvhxLB8IbUowmY+xwhTMMtOd7MVc8g7i2EKIhPgLDQgL0ig7j6+13JJZFR4tJZu9IdqXQ==
+</attribute>
+        <attribute name="uuidstring" type="string">7276979F-D369-4CD9-8248-698BAEDB3893</attribute>
+        <attribute name="modificationdate" type="date">410460703.48014497756958007812</attribute>
+        <attribute name="creationdate" type="date">395572058.86367601156234741211</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z191"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z134">
+        <attribute name="username" type="string">calvinklein</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">calvinklein on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">9</attribute>
+        <attribute name="uuidstring" type="string">BE96EEC6-7126-4AD7-AC46-01F51A1268B1</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.29352998733520507812</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z222"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z135">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7FEPcsWUISKUaHvsyemWASTlbXOD9wDBKU7tvkFppHKj3JyeKKFoE6fkkgmSCLSWIBocjxVAsy9CIpvWI5/RMMKlbJrI2ZLjgFqYGn5hOC8Ia89kUacHmm1Q7JveiQS8Kg==
+</attribute>
+        <attribute name="uuidstring" type="string">252E291D-79BB-47D2-9668-1C87439510B4</attribute>
+        <attribute name="modificationdate" type="date">410460703.48536598682403564453</attribute>
+        <attribute name="creationdate" type="date">395572058.86733299493789672852</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z148"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z136">
+        <attribute name="username" type="string">gucci</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">gucci at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">4DF6C121-A1CC-44AD-97D4-75B4FC897041</attribute>
+        <attribute name="modificationdate" type="date">410460703.48109602928161621094</attribute>
+        <attribute name="creationdate" type="date">382536195.04172301292419433594</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z225"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z137">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7H+NQlKqhZsWvuuGE3WvdgREn/fCJk2vB9v5l4t+PWJd/llTWjq6SEpamazCAMfRvsaqJ8sS8sqeWwOYR98WKE7+aXd4iotSrHrxiSB8IKPvnOHOdh4p7y/NWsgIvloUuQ==
+</attribute>
+        <attribute name="uuidstring" type="string">F375AD65-BA29-4EA7-9682-36FF4F910F22</attribute>
+        <attribute name="modificationdate" type="date">410460703.47406399250030517578</attribute>
+        <attribute name="creationdate" type="date">395572058.86170601844787597656</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z171"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z138">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7EG3zMuVTqHV3OQlbCb1vONMJlrTwQ7Z8udIGvl2uivVm2NmzQ8IaBX5Midm/zR2eFtyqdvBzaSxL5yL2lNEFCLougV8uBj8WzMwLo0PR1VnuKP7uEw+Wtnu3wwAPQTw7g==
+</attribute>
+        <attribute name="uuidstring" type="string">B5DCF7B5-15CC-40B5-916C-EBFEB0687E36</attribute>
+        <attribute name="modificationdate" type="date">410460703.48262399435043334961</attribute>
+        <attribute name="creationdate" type="date">395572058.81143498420715332031</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z203"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z139">
+        <attribute name="username" type="string">luckybrand</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">luckybrand on ftp.wednesday-london.com copy</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">6</attribute>
+        <attribute name="uuidstring" type="string">ADD20ED4-A155-47AE-8EF5-E83008C9C8B4</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.87165397405624389648</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z227"></relationship>
+    </object>
+    <object type="FAVORITE" id="z140">
+        <attribute name="username" type="string">assanka</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">timesheets.saturday-group.com - old</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">8</attribute>
+        <attribute name="uuidstring" type="string">0772A29D-6503-42DB-B85E-AC45C0DED2FD</attribute>
+        <attribute name="modificationdate" type="date">410460703.48403900861740112305</attribute>
+        <attribute name="creationdate" type="date">382536193.77071601152420043945</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z159"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z141">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7OyPhbDf/p1lWdY6wJpfweMvkn7DOrxhRQBrySgMRSXE8kX1inbNDZ5LAS6H02cfBVaRJVeijVnjQmBRltKkTil/Cg5iW89YolRxttOYkSFYYkNvXf0UIU8L8rx0ihQybA==
+</attribute>
+        <attribute name="uuidstring" type="string">CC313F38-6061-416E-8AF2-BAF131BE2EB8</attribute>
+        <attribute name="modificationdate" type="date">410460703.47771698236465454102</attribute>
+        <attribute name="creationdate" type="date">395572058.87748199701309204102</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z196"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z143">
+        <attribute name="username" type="string">fall-collection</attribute>
+        <attribute name="server" type="string">fb.hm.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">fb.hm.com</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites/hm-fall-fashion-social-2012</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">1</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">16</attribute>
+        <attribute name="uuidstring" type="string">8C6F0BE9-3B99-4C1A-B6FD-58AE1707F479</attribute>
+        <attribute name="modificationdate" type="date">410460703.48446702957153320312</attribute>
+        <attribute name="creationdate" type="date">382536195.46958601474761962891</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z216 z229"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z144">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7P3rMYvj26uBrLFPV1XrbP6PwVoim1ISmiCDSVw/cCg298L+OICnA5xkQrpt7d+COyGWUZnUnjAQIdWs60+cm43ru3u9wYictlsk4Z5F872WkcuDY4GyXEf2KnhJx1lreg==
+</attribute>
+        <attribute name="uuidstring" type="string">28720E92-22EC-4CE9-AE32-38A7D25CE3D0</attribute>
+        <attribute name="modificationdate" type="date">410460703.47370600700378417969</attribute>
+        <attribute name="creationdate" type="date">395572058.84660398960113525391</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z168"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z145">
+        <attribute name="username" type="string">wednesdaylondon</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://clients.wednesday-london.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">Rackspace Sites SFTP</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">1</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">10</attribute>
+        <attribute name="uuidstring" type="string">B61C21BD-C032-434B-B333-4A20E134839D</attribute>
+        <attribute name="modificationdate" type="date">410460703.48493897914886474609</attribute>
+        <attribute name="creationdate" type="date">382536193.66545897722244262695</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z197"></relationship>
+    </object>
+    <object type="FAVORITE" id="z146">
+        <attribute name="username" type="string">ourjourney2012</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/ourjourney2012/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">ourjourney2012 on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">13</attribute>
+        <attribute name="uuidstring" type="string">91229153-E270-492C-9666-66BBCC116DE8</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.53186100721359252930</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z234"></relationship>
+    </object>
+    <object type="FAVORITE" id="z147">
+        <attribute name="username" type="string">AKIAI5NIJAA4M5NG6TJA</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">erdem on S3</attribute>
+        <attribute name="initialremotepath" type="string">/file-transfer-erdem</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">10</attribute>
+        <attribute name="uuidstring" type="string">217749CC-B93F-41B6-8965-6011F498613B</attribute>
+        <attribute name="modificationdate" type="date">410460703.47790300846099853516</attribute>
+        <attribute name="creationdate" type="date">397064866.46541798114776611328</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z184"></relationship>
+    </object>
+    <object type="FAVORITE" id="z148">
+        <attribute name="username" type="string">ubuntu</attribute>
+        <attribute name="server" type="string">31.222.169.243</attribute>
+        <attribute name="remoteurl" type="string">http://ourjourney2012.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">ourjourney2012.com</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/ourjourney2012.com/</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl/Sites/ourjourney2012.com/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">11</attribute>
+        <attribute name="uuidstring" type="string">5310EDBB-474F-4745-BDFA-C64022EB935A</attribute>
+        <attribute name="modificationdate" type="date">410460703.48534500598907470703</attribute>
+        <attribute name="creationdate" type="date">382536195.12457102537155151367</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z135"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z149">
+        <attribute name="uuidstring" type="string">F455BB84-32DB-4EE4-9A30-B06003A734CB</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">449897B3-9B04-4DAF-8E1B-F8082DFFCADB</attribute>
+        <attribute name="creationdate" type="date">409161272.65326201915740966797</attribute>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z150">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7CCq1x7npmkgCrcMkMRYDiwCVt6EN2cUVtF25nzYNExZw2YmXkc+DeIpJmcL8wP+PHs4eATcr4fM8MkRVaX1fGZKokENBlnzGFaKm5XKO/Xp+OWAK08cQiXCgzg4LJjf/A==
+</attribute>
+        <attribute name="uuidstring" type="string">830A4E88-060C-42FE-A942-FBE8F8300230</attribute>
+        <attribute name="modificationdate" type="date">410460703.48054397106170654297</attribute>
+        <attribute name="creationdate" type="date">395572058.81276500225067138672</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z122"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z151">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7BK4iU8cgjwdDc4n15W7pc2g4/DROaov837TS6IwDQcuvn3sogtR8YLHRGWJikVAtOhUytc4NKl+JfZoVZz4usz+c0Z0jEuGGYWRodUahRpr4C+/7VyOsSQuZIw0LXiSJg==
+</attribute>
+        <attribute name="uuidstring" type="string">A45D1882-BFA9-4A78-9851-69E9B24D51E4</attribute>
+        <attribute name="modificationdate" type="date">410460703.48385798931121826172</attribute>
+        <attribute name="creationdate" type="date">395572058.82497197389602661133</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z217"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z152">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7PvF35IJBE7lsfCb0MlbFMuvoHno1yceEM9nUfNWKmh0itqNcF5U6l0DpZV5TA3jxxxigLpdEQXLlx4AYI1H+99dxS++g0R0Mj5bfksyT2/sC+wbrCOtNUADxHMpC8qduw==
+</attribute>
+        <attribute name="uuidstring" type="string">EBFEB1DD-22AE-4D49-8151-23883C275A0C</attribute>
+        <attribute name="modificationdate" type="date">410460703.48284298181533813477</attribute>
+        <attribute name="creationdate" type="date">395572058.88038700819015502930</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z128"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z153">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7INfR179Y+ygtArA88TDAVniDNNH3O53nLUnKXrZI02ozdEIg0UlLJgnaezh9Co06j1yOEsaLZLZIqXd8XFnICqCu5xNabo7nTSCVBDvsnqo4MQfxSeW14S3nlZw5BBbJW5q2EIeFRLZrQ6OLfMGBIE=
+</attribute>
+        <attribute name="uuidstring" type="string">30598E15-9725-47D0-B9B0-C6DF33179043</attribute>
+        <attribute name="modificationdate" type="date">410460703.47829002141952514648</attribute>
+        <attribute name="creationdate" type="date">395572058.86010497808456420898</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z177"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z154">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7KRgoto1PGXP45YdGUTpHVUpqSGNM0CGXM+yrDHEXYeHJ00hfiQOYX4FXQ/L4cJdCK1VNQGNNLmj45m31LAc39iPyNrmOnttccOd1t8abzSEz18EiGgztBSlLSXyrk57Iw==
+</attribute>
+        <attribute name="uuidstring" type="string">7D25B587-B2EA-478D-A0F2-E8F82A7269DB</attribute>
+        <attribute name="modificationdate" type="date">410460703.47885000705718994141</attribute>
+        <attribute name="creationdate" type="date">395572058.86904197931289672852</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z167"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z155">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7ETHVdw4ZcrUrA+hObJRnUS88VICyIVyc3M9cLUvxgbC9e5ZrRnU/ZAIzoQsQT4kRz1HFA3hz8WIkh1q/SB52p9RSGcoopCgJJ/sfKuaJSIQOeQ5LrVVksf8Vx79BteFHTCcJ49HVvpB2K5ZjryZ6H727Iqo3PZcqYRz2Fy+uAXs
+</attribute>
+        <attribute name="uuidstring" type="string">836F0F93-9A19-4ECE-855F-B44E92C2ED15</attribute>
+        <attribute name="modificationdate" type="date">410460703.47495001554489135742</attribute>
+        <attribute name="creationdate" type="date">402409920.83443802595138549805</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z111"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="COLLECTION" id="z156">
+        <attribute name="name" type="string">Clients</attribute>
+        <attribute name="index" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">DD88B201-1AF7-489F-A078-4677A5091CC0</attribute>
+        <attribute name="modificationdate" type="date">410460703.45710700750350952148</attribute>
+        <attribute name="creationdate" type="date">382536194.29327201843261718750</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z194 z243 z177 z248 z136 z245 z201 z253 z249 z204 z235 z126 z147 z254"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z157">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7MOPK/wVzA72v9pwMUUJM05EXR4AZ53Px5sMUguq7egxF/hECfPwBCxmVUDaSLx9DcXpUpk1d3J4KKTuHNOk7Bfu8TwP4aJN86Kms3cj4HXVEuiHwrt5KNmGS794sWemgBlUI9SdDnJTYpKXnlk3iyE=
+</attribute>
+        <attribute name="uuidstring" type="string">A86AB0DD-66EF-478A-B86D-3393BA2921DA</attribute>
+        <attribute name="modificationdate" type="date">410460703.47310197353363037109</attribute>
+        <attribute name="creationdate" type="date">395572058.85666698217391967773</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z243"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z159">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AHpbvvg508eKVwJJCa82Q/eEsEY+/eh0eqIUGWzC1hkANQfLe7IyMTLRajOKKWjqQY3mUDdL2YamFdQiUIiOTYTrkdkAqrhU2WPNUkvCDFD1yqBSNdePK+fQVznxZtyRg==
+</attribute>
+        <attribute name="uuidstring" type="string">1392AFB4-3988-4F6C-989F-6DE4ABF33FC9</attribute>
+        <attribute name="modificationdate" type="date">410460703.48405998945236206055</attribute>
+        <attribute name="creationdate" type="date">395572058.89149498939514160156</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z140"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z160">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7E1Lb5PMMkli+n+bws5kmDkqYL1BvMA40NIBXCbvE+qMuqbmhTsfOp3bv7yyKJjNZvnLxsG2gsMmoZtbcBPnBDYcxGJyBZRjqeTVHmpRCD6rPzc9HIUUC5Y1YY58k6BdBwHBLQp9P6od1Is9Jc2uZWM=
+</attribute>
+        <attribute name="uuidstring" type="string">FD9B6900-766F-4A6F-82A8-A86C95D1B6D8</attribute>
+        <attribute name="modificationdate" type="date">410460703.47697901725769042969</attribute>
+        <attribute name="creationdate" type="date">395572058.82013499736785888672</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z201"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z161">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7Fl3OBlKvAwZnqaLBSycIrGOIpm7MORsKbIilMx3kXGNeWcHnIvjnkWOz1bqFe47/6zfROWGx9Z3+VA1fmSfhFt1iJyLnrVaDfxOavA4InomRnRjL+HC8YzJPtahvrWwnQ==
+</attribute>
+        <attribute name="uuidstring" type="string">6910A1D8-AE53-4133-9EC7-67CBFC42EFC2</attribute>
+        <attribute name="modificationdate" type="date">410460703.47530299425125122070</attribute>
+        <attribute name="creationdate" type="date">395572058.85211998224258422852</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z117"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z162">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7MIikjL9L6gsIyDhT7VH/ScNEvq+bUQ7WMRzZckJsvMA3wN8SPxV0EZN3liUddgQHaT7udV+HuvK6xeuGldDDmdyM5uSRquZDUroHSK0i0NS9gkmqIqR0vY+kZ9q8vrj7w==
+</attribute>
+        <attribute name="uuidstring" type="string">843DD5A3-6AAB-42D8-A4BC-A9B7A05C2337</attribute>
+        <attribute name="modificationdate" type="date">410460703.48476898670196533203</attribute>
+        <attribute name="creationdate" type="date">395572058.80972301959991455078</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z221"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z163">
+        <attribute name="uuidstring" type="string">2181E193-F9E1-4ACE-BCC4-B929FCE2315F</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">194CE995-879E-47DC-9992-E162B7B5BE18</attribute>
+        <attribute name="creationdate" type="date">408477965.28370702266693115234</attribute>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z164">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7KRgoto1PGXP45YdGUTpHVUpqSGNM0CGXM+yrDHEXYeHJ00hfiQOYX4FXQ/L4cJdCK1VNQGNNLmj45m31LAc39iPyNrmOnttccOd1t8abzSEz18EiGgztBSlLSXyrk57Iw==
+</attribute>
+        <attribute name="uuidstring" type="string">B34CF442-86E6-4363-BA80-6DE1C510D85C</attribute>
+        <attribute name="modificationdate" type="date">410460703.47547900676727294922</attribute>
+        <attribute name="creationdate" type="date">395572058.87095499038696289062</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z192"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z165">
+        <attribute name="username" type="string">frontrow</attribute>
+        <attribute name="server" type="string">AppleTV.local</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">AppleTV</attribute>
+        <attribute name="initialremotepath" type="string">/mnt/Scratch/Users/frontrow</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karlpodger</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">F81F5E8E-5755-4632-8554-D502FE2AD740</attribute>
+        <attribute name="modificationdate" type="date">410460703.47331798076629638672</attribute>
+        <attribute name="creationdate" type="date">382536193.60985797643661499023</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z178"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z211"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z166">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7FZ8SBJbrqzrlGByq392luurVeZgVoJWriNxtNsegkLlsfk3xp013rlvWvGwx0pN2T9D8IDwXAT+BPB5voay0wg/L16LNnqKvijcOj3UHbgpcGU2Ishunw/lZvV3drIUiA==
+</attribute>
+        <attribute name="uuidstring" type="string">C22B6CCA-D57D-418B-AAA3-6CE847643100</attribute>
+        <attribute name="modificationdate" type="date">410460703.48343497514724731445</attribute>
+        <attribute name="creationdate" type="date">403036039.09344297647476196289</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z212"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z167">
+        <attribute name="username" type="string">karlito</attribute>
+        <attribute name="server" type="string">primeordinal.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">primeordinal.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">C27B69F6-B341-47F4-9BF5-62E7CB0B1BBF</attribute>
+        <attribute name="modificationdate" type="date">410460703.47883099317550659180</attribute>
+        <attribute name="creationdate" type="date">382536193.51452201604843139648</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z178"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z154"></relationship>
+    </object>
+    <object type="FAVORITE" id="z168">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">184.106.176.178</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">labeluxgroup.com</attribute>
+        <attribute name="initialremotepath" type="string">/root</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karlpodger/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">13</attribute>
+        <attribute name="uuidstring" type="string">825E8ED6-1747-4B9E-B191-D0487B74B9E4</attribute>
+        <attribute name="modificationdate" type="date">410460703.47368502616882324219</attribute>
+        <attribute name="creationdate" type="date">382536195.30116498470306396484</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z144"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z169">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7IedodX5/mF+IgCrJdSAEYZq9DWXx+LQIXrnSHGmrEti4mc06DYYZP3FvJiqS4r5494vy9a2EOqE4kdCaZtJgKcHmdI9rm5EG1nQw88UD1wqIEbBWjfKzTi+EufJ1aXkLQ==
+</attribute>
+        <attribute name="uuidstring" type="string">D32D71BE-2F9A-4A66-807F-482916738F63</attribute>
+        <attribute name="modificationdate" type="date">410460703.47920298576354980469</attribute>
+        <attribute name="creationdate" type="date">395572058.87245398759841918945</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z240"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z170">
+        <attribute name="username" type="string">nobody</attribute>
+        <attribute name="server" type="string">127.0.0.1</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">21</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">localhost</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">43793430-079C-4BC4-BFAA-4057519A455D</attribute>
+        <attribute name="modificationdate" type="date">410460703.47660398483276367188</attribute>
+        <attribute name="creationdate" type="date">382536193.46415102481842041016</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z178"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z220"></relationship>
+    </object>
+    <object type="FAVORITE" id="z171">
+        <attribute name="username" type="string">oscarproperties1</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">oscarproperties on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">10</attribute>
+        <attribute name="uuidstring" type="string">0EE8AC4F-42B0-4683-8EFD-45CAD708AA11</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.34979599714279174805</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z137"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z172">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7OqIiACA60d8afo2qD1QR61aLbaUoqclrphFYq204jsn6+HgA5fIxpwIwUI6K2JFrPL8q/2ruC+H78Oq9BK9liVdt/LIerIyOIHyNEFlg01lmji81JvDQXVKSPaKtlEf8A==
+</attribute>
+        <attribute name="uuidstring" type="string">C68BC360-7FC8-4AC0-B46A-213B1633B94C</attribute>
+        <attribute name="modificationdate" type="date">410460703.47645097970962524414</attribute>
+        <attribute name="creationdate" type="date">395572058.88621199131011962891</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z112"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z173">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AHpbvvg508eKVwJJCa82Q/eEsEY+/eh0eqIUGWzC1hkANQfLe7IyMTLRajOKKWjqQY3mUDdL2YamFdQiUIiOTYTrkdkAqrhU2WPNUkvCDFD1yqBSNdePK+fQVznxZtyRg==
+</attribute>
+        <attribute name="uuidstring" type="string">A4B9A4F9-77A0-470C-B6F6-F9AEC7F2651F</attribute>
+        <attribute name="modificationdate" type="date">410460703.48197901248931884766</attribute>
+        <attribute name="creationdate" type="date">395572058.88500601053237915039</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z124"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z174">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7L/Dyd2ngQv1kFfUzOriZYGVg06mHuT9eHwwTmKsYqvcl9KYC6ioTF1OH1jWUBXpVIlqL+rpLvhK86FrKn3YL9H4TNil41WEtp/eHittHwnsVdcZtGL/mUxd5GKGJi01yss8Zm09PfOOjETru296EDc=
+</attribute>
+        <attribute name="uuidstring" type="string">6D537A48-72B4-4E84-803C-534B3A9C1F8F</attribute>
+        <attribute name="modificationdate" type="date">410460703.47425001859664916992</attribute>
+        <attribute name="creationdate" type="date">395572058.83809602260589599609</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z254"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z175">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AP5MmuFpmUMX9fVZPGcYyPbpLz2Ygn3XQ8OyJEhmYuVlLgpX2JG06WmL5yjwPXS0njXDGRoBX6zfyenkACcxCKmVmVsUfWzTZKb6z48r3wGYnLAj2ND5Q4jf2tU2uzYFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">20811511-86B3-45B3-847B-3DE22F99142C</attribute>
+        <attribute name="modificationdate" type="date">410460703.48034501075744628906</attribute>
+        <attribute name="creationdate" type="date">395572058.87606698274612426758</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z108"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z176">
+        <attribute name="username" type="string">site-hall-london-com</attribute>
+        <attribute name="server" type="string">alpha.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">site-hall-london-com@alpha.wednesdayagency.com (198.61.230.164)</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">2227214C-6A14-4F3A-A74C-98ECFCD03701</attribute>
+        <attribute name="modificationdate" type="date">410460703.47936099767684936523</attribute>
+        <attribute name="creationdate" type="date">389810829.88357400894165039062</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z215"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z230"></relationship>
+    </object>
+    <object type="FAVORITE" id="z177">
+        <attribute name="username" type="string">napapijri</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">napapijri on ftp1.wednesdayagency.com</attribute>
+        <attribute name="initialremotepath" type="string">/ftp</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">4</attribute>
+        <attribute name="uuidstring" type="string">D03C8B8E-FDF7-4F1D-80E2-1E4CB156B302</attribute>
+        <attribute name="modificationdate" type="date">410460703.47826200723648071289</attribute>
+        <attribute name="creationdate" type="date">382536195.06809300184249877930</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z153"></relationship>
+    </object>
+    <object type="COLLECTION" id="z178">
+        <attribute name="name" type="string">Favorites</attribute>
+        <attribute name="index" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">192C59E3-06C4-4983-94F2-3715F57039BF</attribute>
+        <attribute name="modificationdate" type="date">410460703.45695298910140991211</attribute>
+        <attribute name="creationdate" type="date">399921408.99253797531127929688</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z170 z167 z165 z192"></relationship>
+    </object>
+    <object type="FAVORITE" id="z179">
+        <attribute name="username" type="string">wednesday</attribute>
+        <attribute name="server" type="string">166.78.249.237</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">production-01</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">8</attribute>
+        <attribute name="uuidstring" type="string">30B65455-AE9B-4737-8590-0CA523718110</attribute>
+        <attribute name="modificationdate" type="date">410460703.47440397739410400391</attribute>
+        <attribute name="creationdate" type="date">402885299.50080901384353637695</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z244"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z180">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7BWlURf3H7ZVa6z02f6vyChFEXz0TnYUTu+OjLQtmOnZalfmePhvx/VV0XdXKMOD3aWgVPTsSBJicVyUcJYp9jKBiCsbs4WccOnpFw7IsAmZ9I0W7G7vjuUHxEclBFyvJegoku+0nXTAPEmY7rjHALY=
+</attribute>
+        <attribute name="uuidstring" type="string">C5008FD3-8797-4E7B-AC8C-CEAB4B6E7025</attribute>
+        <attribute name="modificationdate" type="date">410460703.47353398799896240234</attribute>
+        <attribute name="creationdate" type="date">395572058.88988298177719116211</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z245"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z181">
+        <attribute name="username" type="string">annsofieback.com</attribute>
+        <attribute name="server" type="string">ftpcluster.loopia.se</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">annsofieback.com</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">839DB380-A35D-4ED5-AF57-C0524AE7AC52</attribute>
+        <attribute name="modificationdate" type="date">410460703.47953701019287109375</attribute>
+        <attribute name="creationdate" type="date">382536195.48481202125549316406</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z130"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z182">
+        <attribute name="uuidstring" type="string">67D3DC5F-EEFD-4795-AA5D-1105458BC13B</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">C4CAD462-27E5-4189-B722-D515F89C45BA</attribute>
+        <attribute name="creationdate" type="date">408477965.28328698873519897461</attribute>
+    </object>
+    <object type="FAVORITE" id="z183">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">166.78.249.237</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">production-01 copy</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">9</attribute>
+        <attribute name="uuidstring" type="string">709C8648-1CE0-4F62-A13C-13D109B872A9</attribute>
+        <attribute name="modificationdate" type="date">410460703.47475200891494750977</attribute>
+        <attribute name="creationdate" type="date">402888664.64774197340011596680</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z188"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z184">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7A5QUQvCCOgaEzCADe19L9ExzXSVgH0T+f4cFAAw4bG6qsm1SDtaw87QVWBGLIO+wBOyzMTtN8sbldIPisL4SHDIzZHddNaC9pbBigRk74CYxzP92Hp2nonw5puOJBbwmPo+24X6BeUYNVBFz53XNHToMTwpF2hk7gRqKfeueLDs
+</attribute>
+        <attribute name="uuidstring" type="string">D8657F45-B28C-4B49-A91E-F6D7EAFD8636</attribute>
+        <attribute name="modificationdate" type="date">410460703.47792297601699829102</attribute>
+        <attribute name="creationdate" type="date">397064866.48192000389099121094</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z147"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="COLLECTION" id="z185">
+        <attribute name="name" type="string">Clients (legacy)</attribute>
+        <attribute name="index" type="int32">6</attribute>
+        <attribute name="uuidstring" type="string">C7821DB7-5B18-435A-B364-1A4622C4768E</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">389818348.92221897840499877930</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z217 z219 z198 z187 z134 z203 z139 z113 z218 z221 z124 z224 z106 z171 z114 z146"></relationship>
+    </object>
+    <object type="FAVORITE" id="z186">
+        <attribute name="username" type="string">wednesday</attribute>
+        <attribute name="server" type="string">81.29.196.43</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">moncler.com</attribute>
+        <attribute name="initialremotepath" type="string">/data/www/</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karlpodger/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">12</attribute>
+        <attribute name="uuidstring" type="string">DD8D1D10-63A1-4818-A14D-2C5DDE28E9F7</attribute>
+        <attribute name="modificationdate" type="date">410460703.47510701417922973633</attribute>
+        <attribute name="creationdate" type="date">382536195.18461799621582031250</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z115"></relationship>
+    </object>
+    <object type="FAVORITE" id="z187">
+        <attribute name="username" type="string">candela2012</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">candela on ftp.wednesday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">D9DB8909-1677-458C-B5C8-5E6DE27B816B</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.69979697465896606445</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z233"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z188">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7ATm+2c9KaFHGadRJhoybIBmHRPruvAvWuL8LoiWccz1BjaZmwnWDXRHLXtHLvKTKekAZ4bj1ZSA0MdzLsNkdwigAKtT4eLNqzF+1YH6D7PN18vN8uIabiepRPGUHiwahQ==
+</attribute>
+        <attribute name="uuidstring" type="string">9179FE54-8100-4BA7-B816-D0342ED3F646</attribute>
+        <attribute name="modificationdate" type="date">410460703.47477197647094726562</attribute>
+        <attribute name="creationdate" type="date">402888664.66220599412918090820</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z183"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z189">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7MQgIwpsmfe7i14wABp8jnh3D/0V0iM5H0lJc/VVLeTWuocn4L7DAiRaZdMZDs8G/GTlDYBRpZsHfiyVPbJViO7JZ5gLnSIS6LJcy5Z5S92vx8qpc/SO/ZJpr7YnoM2PibaeCj5Pd1USF5IHfztqmwApXypBGjjmlipuWSVsNcZv
+</attribute>
+        <attribute name="uuidstring" type="string">F6F3345E-A953-46C6-A764-8972037DA8DA</attribute>
+        <attribute name="modificationdate" type="date">410460703.48155599832534790039</attribute>
+        <attribute name="creationdate" type="date">395572058.88355398178100585938</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z119"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z190">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7O2xkzCwZpgWG7fKh8t2bkLPQxsN4RLyoS+VSxM6z99pDhhtxtC2OkyC36meTnVQvG/PNnJ17zlYPtfWQTYa61G3Y1xckNlAXAKInt8eiksT7D6bcTkeiSm43AJOY1xlhLqGogHeybZ9lp6FBPrYijA=
+</attribute>
+        <attribute name="uuidstring" type="string">B938647C-5D29-4303-86E8-3B882E21806E</attribute>
+        <attribute name="modificationdate" type="date">410460703.47975498437881469727</attribute>
+        <attribute name="creationdate" type="date">395572058.89515000581741333008</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z110"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z191">
+        <attribute name="username" type="string">ubuntu</attribute>
+        <attribute name="server" type="string">50.56.85.227</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">oscarproperties.se</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">14</attribute>
+        <attribute name="uuidstring" type="string">91DB6902-9396-41F7-9E02-7E1A84FF96BD</attribute>
+        <attribute name="modificationdate" type="date">410460703.48012602329254150391</attribute>
+        <attribute name="creationdate" type="date">382536195.35971498489379882812</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z133"></relationship>
+    </object>
+    <object type="FAVORITE" id="z192">
+        <attribute name="username" type="string">karlito</attribute>
+        <attribute name="server" type="string">primeordinal.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">1947</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">primeordinal.com old</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">7FAF35DC-B2B8-4599-96E5-A80019DFB6E0</attribute>
+        <attribute name="modificationdate" type="date">410460703.47545897960662841797</attribute>
+        <attribute name="creationdate" type="date">382536193.58454000949859619141</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z178"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z164"></relationship>
+    </object>
+    <object type="COLLECTION" id="z193">
+        <attribute name="name" type="string">Projects (legacy)</attribute>
+        <attribute name="index" type="int32">5</attribute>
+        <attribute name="uuidstring" type="string">FC3891C6-EAD1-4157-B426-2F65374D310D</attribute>
+        <attribute name="modificationdate" type="date">410460703.45713698863983154297</attribute>
+        <attribute name="creationdate" type="date">382536195.48453599214553833008</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z112 z168 z132 z148 z140 z191 z251 z199 z145 z240 z228 z143 z186 z196 z205 z181 z122"></relationship>
+    </object>
+    <object type="FAVORITE" id="z194">
+        <attribute name="username" type="string">industrie</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">industrie at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">8</attribute>
+        <attribute name="uuidstring" type="string">11BA50E9-405A-4A21-AE1B-690541DD6A79</attribute>
+        <attribute name="modificationdate" type="date">410460703.48174697160720825195</attribute>
+        <attribute name="creationdate" type="date">388320147.58679300546646118164</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z209"></relationship>
+    </object>
+    <object type="FAVORITE" id="z195">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">166.78.238.226</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">root@staging.wednesdayagency.com (166.78.238.226)</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">CDFE1D5D-771A-4E92-97D2-E9A6F5F3E37C</attribute>
+        <attribute name="modificationdate" type="date">410460703.47625601291656494141</attribute>
+        <attribute name="creationdate" type="date">389738512.23173499107360839844</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z131"></relationship>
+    </object>
+    <object type="FAVORITE" id="z196">
+        <attribute name="username" type="string">rexton2010</attribute>
+        <attribute name="server" type="string">ftp3.ftptoyoursite.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">rextoninternational.com</attribute>
+        <attribute name="initialremotepath" type="string">/www.rextoninternational.com/web/content</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">27BEC640-3966-4D18-BAFA-EBF448AF69DC</attribute>
+        <attribute name="modificationdate" type="date">410460703.47768700122833251953</attribute>
+        <attribute name="creationdate" type="date">382536195.51045697927474975586</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z141"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z197">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AP5MmuFpmUMX9fVZPGcYyPbpLz2Ygn3XQ8OyJEhmYuVlLgpX2JG06WmL5yjwPXS0njXDGRoBX6zfyenkACcxCKmVmVsUfWzTZKb6z48r3wGYnLAj2ND5Q4jf2tU2uzYFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">CD837E40-9CF2-420B-9969-C59EBA0AE4D3</attribute>
+        <attribute name="modificationdate" type="date">410460703.48495799303054809570</attribute>
+        <attribute name="creationdate" type="date">395572058.87389701604843139648</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z145"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z198">
+        <attribute name="username" type="string">rizzoli</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/ourjourney2012/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">rizzoli on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">9D76878A-266F-415B-806E-A67D4926C7CC</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.58743900060653686523</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z246"></relationship>
+    </object>
+    <object type="FAVORITE" id="z199">
+        <attribute name="username" type="string">karlpodger</attribute>
+        <attribute name="server" type="string">wednesday-primary.wednesday-london.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">wednesday-primary.wednesday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">7</attribute>
+        <attribute name="uuidstring" type="string">50BF40C7-1B93-4B13-AEB8-A2A12D920803</attribute>
+        <attribute name="modificationdate" type="date">410460703.47900497913360595703</attribute>
+        <attribute name="creationdate" type="date">382536194.23793601989746093750</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z214"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z200">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7He8qKYJVvH5Ziuh2Or87waY5AHR/zivBhHq1aHmVmRJLG7NEwU4Daw2jmg2egMj8rYX6CB6c7lV8ZMku7XGdsWPeLrrDXx5gjPevs4TSzzP2MqCJKO7PkASVjqaGMMU5JpVjwP3q+y9goy7tGn8XzobKW/Ml+w/Jo+C1EHSUqgN
+</attribute>
+        <attribute name="uuidstring" type="string">CA2977D9-A853-428D-80A4-3FA6EC135823</attribute>
+        <attribute name="modificationdate" type="date">410460703.48072797060012817383</attribute>
+        <attribute name="creationdate" type="date">405365916.15361398458480834961</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z123"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z201">
+        <attribute name="username" type="string">chanel</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">chanel at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">68C77E67-6DDC-470F-A2D4-5B00408C0E58</attribute>
+        <attribute name="modificationdate" type="date">410460703.47695702314376831055</attribute>
+        <attribute name="creationdate" type="date">389787164.56477999687194824219</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z160"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z202">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7NF5jyoGkF2O677uIPhMF0IRwO3ASt9YZ3S6wDAHceBKKvdu98bRH1e77DbCfVBmnvKUO1swEPjH5Mj9YX7HUffD8MEL7V69pHvkPEuGwroo
+</attribute>
+        <attribute name="uuidstring" type="string">CFFB9D68-FDF2-457E-8C78-F4D7BD973F77</attribute>
+        <attribute name="modificationdate" type="date">410460703.48323702812194824219</attribute>
+        <attribute name="creationdate" type="date">395572058.81411999464035034180</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z132"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z203">
+        <attribute name="username" type="string">balenciaga</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">balenciaga on ftp.wednesday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">5945F5CA-7DCD-403E-BDA4-5CDF01E0EEEE</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.64341998100280761719</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z138"></relationship>
+    </object>
+    <object type="FAVORITE" id="z204">
+        <attribute name="username" type="string">AKIAIVCZMVAUZUYNPOIQ</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">kurt-geiger on S3</attribute>
+        <attribute name="initialremotepath" type="string">/file-transfer-kurt-geiger</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">9</attribute>
+        <attribute name="uuidstring" type="string">C5C217A9-709A-42C4-88BD-CDFDED304884</attribute>
+        <attribute name="modificationdate" type="date">410460703.48302102088928222656</attribute>
+        <attribute name="creationdate" type="date">395110634.62795197963714599609</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z252"></relationship>
+    </object>
+    <object type="FAVORITE" id="z205">
+        <attribute name="username" type="string">gemfieldsftp</attribute>
+        <attribute name="server" type="string">gemfields.co.uk</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">Gemfields</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">4</attribute>
+        <attribute name="uuidstring" type="string">8EC38850-E0D6-4536-A6C9-BD5D420F47F4</attribute>
+        <attribute name="modificationdate" type="date">410460703.48129200935363769531</attribute>
+        <attribute name="creationdate" type="date">382536195.62224698066711425781</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z121"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z207">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7K4QNq7OQ06NDpdKPNfo+SdhhAMEhSFiT/yCO41iDunKoQspNisHn7FFX/QQIjSs2csDARU597rdYYGWPxjAvjuajkTyMjKg0p/gxdfEi2xkwjB0fRykqhEjdiKkL7DzNg==
+</attribute>
+        <attribute name="uuidstring" type="string">56378978-51D7-45B1-B681-00185B3BC4AC</attribute>
+        <attribute name="modificationdate" type="date">410460703.47609102725982666016</attribute>
+        <attribute name="creationdate" type="date">395572058.82798200845718383789</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z114"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z208">
+        <attribute name="uuidstring" type="string">ADCA6F79-2FFA-4236-B6DD-22D3927E25DA</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">CD8A0298-7426-49C9-A976-20DCD50FE80D</attribute>
+        <attribute name="creationdate" type="date">409784147.71854400634765625000</attribute>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z209">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7A6nY6/DD36vwE6ufxt79ftSocGG73SNAq2vCHIjunWkyXf+Lpd+hPWoPSIl4v/ncDJzG/WRYCwHIElYoHkq1P1CtUdm0MpJnx5CeMVBPNBSA0zIothmy9hyOZgLnFPdG+Ij9J9vLjxmGcw8Nh3TkDQ=
+</attribute>
+        <attribute name="uuidstring" type="string">57B869F1-5278-4C47-813A-011C4E5E8229</attribute>
+        <attribute name="modificationdate" type="date">410460703.48176902532577514648</attribute>
+        <attribute name="creationdate" type="date">395572058.84201097488403320312</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z194"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z210">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7PalNUlgqmrGDMzKOooz/SAOXq4rpI4/hwTwVi7/dAmLbAYhjiTLeCDx6I7mhYWMsY9JQINjHZ9HfRegQq4qKy/MW5YHN0ncWyykEoIGwQndB37M2ysY1jZlDF1dqosxYg==
+</attribute>
+        <attribute name="uuidstring" type="string">1B82DB3A-5C04-47E3-8B4B-49C6DB7746E2</attribute>
+        <attribute name="modificationdate" type="date">410460703.47847497463226318359</attribute>
+        <attribute name="creationdate" type="date">395572058.82616102695465087891</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z213"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z211">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7MSx/5K5PBtMM3AZmkY+yxusoKmODZ/AQ+ih07RM3hhIv55nj4shT4AnhuBuoe+VP6KmwU/d1tgO0whqq22ylGYQsCeLC4Se4NtVMWfjwZwInkV3sYjfLvposwCpYVCK1w==
+</attribute>
+        <attribute name="uuidstring" type="string">690F0970-472C-4EDD-BF4F-6F61CF5BE970</attribute>
+        <attribute name="modificationdate" type="date">410460703.47334802150726318359</attribute>
+        <attribute name="creationdate" type="date">395572058.80738598108291625977</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z165"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z212">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">67.207.157.18</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">root on wednesday-01</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">10</attribute>
+        <attribute name="uuidstring" type="string">4CBBB446-53F6-4278-8986-CD5A7F50D151</attribute>
+        <attribute name="modificationdate" type="date">410460703.48341399431228637695</attribute>
+        <attribute name="creationdate" type="date">403035990.69026798009872436523</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z166"></relationship>
+    </object>
+    <object type="FAVORITE" id="z213">
+        <attribute name="username" type="string">elder-statesman</attribute>
+        <attribute name="server" type="string">elder-statesman.com</attribute>
+        <attribute name="remoteurl" type="string">http://elder-statesman.com/</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">elder-statesman.com</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/html</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites/elder-statesman.com/deploy</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">020BDB55-5037-41C8-9DD0-903AFA0ACB8E</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">391518591.84855699539184570312</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z120"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z210"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z214">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AP5MmuFpmUMX9fVZPGcYyPbpLz2Ygn3XQ8OyJEhmYuVlLgpX2JG06WmL5yjwPXS0njXDGRoBX6zfyenkACcxCKmVmVsUfWzTZKb6z48r3wGYnLAj2ND5Q4jf2tU2uzYFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">CB53AB25-93B5-4354-B060-650631E93FFF</attribute>
+        <attribute name="modificationdate" type="date">410460703.47902601957321166992</attribute>
+        <attribute name="creationdate" type="date">395572058.89302402734756469727</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z199"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="COLLECTION" id="z215">
+        <attribute name="name" type="string">Sites</attribute>
+        <attribute name="index" type="int32">4</attribute>
+        <attribute name="uuidstring" type="string">0DA29EF3-E523-4173-B17C-E0781CC43C66</attribute>
+        <attribute name="modificationdate" type="date">410460703.45707398653030395508</attribute>
+        <attribute name="creationdate" type="date">389818898.46464699506759643555</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z110 z176"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z216">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7EnkXmcF/Ji2/nMJ74s0Eqm6wfLaV1Fy6ajAyTtUnpKK4+df2V1y4ch0+hl00IHq3pKU3nUhgDAKOhd1Mtg1YClgUpzinmljRDc+aR7d8Mp1Ti2I7wFs1n20OXS7fWiTKwAfMvyB6FK2m0z4no2Rxkw=
+</attribute>
+        <attribute name="uuidstring" type="string">F10B470C-3F3E-4D90-AF99-0CC91BD0C4DC</attribute>
+        <attribute name="modificationdate" type="date">410460703.48457497358322143555</attribute>
+        <attribute name="creationdate" type="date">395572058.83040297031402587891</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z143"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z217">
+        <attribute name="username" type="string">clients1</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://wednesday-london.com/clients.wednesday-london.com/web/content/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">clients1 on ftp.wednesday-london.com copy</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">8</attribute>
+        <attribute name="uuidstring" type="string">345B2519-CC70-459D-B0FA-8E13E0119F63</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.98504000902175903320</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z151"></relationship>
+    </object>
+    <object type="FAVORITE" id="z218">
+        <attribute name="username" type="string">ITCampaigns</attribute>
+        <attribute name="server" type="string">ftp1.hm.com</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">ftp1.hm.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">14</attribute>
+        <attribute name="uuidstring" type="string">B16C52CD-31AA-4D9F-A223-CF0383F78A80</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536195.44293999671936035156</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z109"></relationship>
+    </object>
+    <object type="FAVORITE" id="z219">
+        <attribute name="username" type="string">kurtgeiger1</attribute>
+        <attribute name="server" type="string">ftp.saturday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://saturday-london.com/ftp/calvinklein/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">kurtgeiger on ftp.saturday-london.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">12</attribute>
+        <attribute name="uuidstring" type="string">C476DB34-092E-46DC-8C57-AE8AE56B5476</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.47544598579406738281</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z223"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z220">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7ACk6rRQSuVdK4N+/UzNtu95O3rH22TaDW5STJA4dUyJ1DdgjPenz4PeVZuCp274Coku3VY2TCELNqNipjdJLBowSzJ+SmAU9DkDQky/a/O1
+</attribute>
+        <attribute name="uuidstring" type="string">766D7C38-1F0C-4B4B-9CFB-7EA665A37BF6</attribute>
+        <attribute name="modificationdate" type="date">410460703.47662401199340820312</attribute>
+        <attribute name="creationdate" type="date">395572058.84917801618576049805</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z170"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z221">
+        <attribute name="username" type="string">wednesday</attribute>
+        <attribute name="server" type="string">50.62.130.98</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">armanitweettalks.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">15</attribute>
+        <attribute name="uuidstring" type="string">2A99C9EF-CE38-4B44-A1D6-1D019155CED1</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536195.24532800912857055664</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z162"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z222">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7OCR904zHyGk7TgvxrKKH98NH7MWRTKBksr0S2HvLzYZ0QTMn2OtHUoUlJOJ3jJaBnKcMADDePX/v6454HdvedoBU3g0yYu2cE4AZqB4V0Symp9s3cxfn2FdOyljt7f7xw==
+</attribute>
+        <attribute name="uuidstring" type="string">12EFC755-2832-4198-844E-F9C11A49773F</attribute>
+        <attribute name="modificationdate" type="date">410460703.47715300321578979492</attribute>
+        <attribute name="creationdate" type="date">395572058.81706202030181884766</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z134"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z223">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7N/fuVhs9YPWEOBl2BZtWMyPetl8xGr5bzrI78FKvgGHSwVK08ylDFt0gELC7rEPbsS0kKaZJBvhs2t5zFJb/+q2E7ZhHgGExOsBTDsN9H3QSbx0RtPdKm6Jh853dnsvFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">A2532876-C1A4-46F4-B1DF-B6948A2CD84D</attribute>
+        <attribute name="modificationdate" type="date">410460703.48426097631454467773</attribute>
+        <attribute name="creationdate" type="date">395572058.84494602680206298828</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z219"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z224">
+        <attribute name="username" type="string">framedenim</attribute>
+        <attribute name="server" type="string">ftp.frame-denim.com</attribute>
+        <attribute name="remoteurl" type="string">http://frame-denim.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">framedenim on ftp.wednesday-london.com</attribute>
+        <attribute name="initialremotepath" type="string">/www.frame-denim.com/web/content/</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites/frame-denim/content/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">5</attribute>
+        <attribute name="uuidstring" type="string">F5C6B3A6-21EC-4787-95E4-C1C259CF296D</attribute>
+        <attribute name="modificationdate" type="date">410460770.19406199455261230469</attribute>
+        <attribute name="creationdate" type="date">382536194.81230497360229492188</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z185"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z107"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z225">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7L/Dyd2ngQv1kFfUzOriZYGVg06mHuT9eHwwTmKsYqvcl9KYC6ioTF1OH1jWUBXpVIlqL+rpLvhK86FrKn3YL9H4TNil41WEtp/eHittHwnsVdcZtGL/mUxd5GKGJi01yss8Zm09PfOOjETru296EDc=
+</attribute>
+        <attribute name="uuidstring" type="string">2E705D6F-1B5C-40C3-B2C7-3633B716D2D1</attribute>
+        <attribute name="modificationdate" type="date">410460703.48111802339553833008</attribute>
+        <attribute name="creationdate" type="date">395572058.83660399913787841797</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z136"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z226">
+        <attribute name="uuidstring" type="string">8FE1471C-FEC3-4B2B-9A5D-3100B33E4AF1</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">DA4F2677-807D-4EBF-96E5-4796D1A2FACC</attribute>
+        <attribute name="creationdate" type="date">408628776.77087497711181640625</attribute>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z227">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7E3I89ctWmLBYOpXOSSS7ZB0wpYe8ORE/Y4J1FB7bwCPaLA5EbOBB9yM+S4dIwHIzTSjQRZLpyG2PGIu3yZWHHPzO313PNEJ1abTQ3+8UDVQcCPi3fJJOetyRmkm5dNXeg==
+</attribute>
+        <attribute name="uuidstring" type="string">7735869E-16E6-48BF-8184-119179FC7187</attribute>
+        <attribute name="modificationdate" type="date">410460703.48363798856735229492</attribute>
+        <attribute name="creationdate" type="date">395572058.85069501399993896484</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z139"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z228">
+        <attribute name="username" type="string">wednesdaylondon</attribute>
+        <attribute name="server" type="string">ftp.wednesday-london.com</attribute>
+        <attribute name="remoteurl" type="string">http://clients.wednesday-london.com/</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">clients.wednesday-london.com</attribute>
+        <attribute name="initialremotepath" type="string">/clients.wednesday-london.com/web/content</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">9</attribute>
+        <attribute name="uuidstring" type="string">3FA08241-653A-4675-9884-BDFABE14F193</attribute>
+        <attribute name="modificationdate" type="date">410460703.47086000442504882812</attribute>
+        <attribute name="creationdate" type="date">382536193.74579602479934692383</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z242"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z229">
+        <attribute name="key" type="string">identity</attribute>
+        <attribute name="data" type="binary">bIIe/gVDbxUvZubC49SZRsQN0Iajk2XFS6rgsI+fc+1EFpy7w3J0yZIjdGZXpqN+PFNS994y3EpY
+aQgyIGlhlFPAr0fFv2sfvJeGscc5oMgH9ECden37L6jj3PwWVbPMthn5IaEKTjuCAXHLdakj7oLQcqpE237uuIOm2GGwXVPuaeMQfpTzyGH8yh6jPpHCUDgMb265SiilmiWXL0dRxlsXS+T+7lPlFxR51xKgq9Bwr/t71+yDsjyWjMfdEKT9y4zcjFCSchKollaBvoeuXjGXZ0OPW9pB9iVvCcjlncn5cvaMJyQC2cOuO1gKJGRunW4TERPSwYTTb60B9oSqbVzIlpGS5Ku6p6soSkuGDmSLtPG9fZNzjS4upCQAoMMUOWBLocUO+XmKb6khFhVe/vaMOKSeQuaM4lLaXnVGuvU+iKTCYAwpyNlVqxiwKx0KVYh9a3Oi1MoYbESlPiAZ0cg34YQF2BEvG68LvIG1qae9fkwTcW1DeL5+/Dfo+yht7RLXa0MDkqpZXNnQHmypdzeK+T4pZCxGRydpbp9yLavsV3b9PA7zzjeZlrWhwvIf3tutR8LYEFn9QMdZXLCZ1fvNt3rFMk6OX8tVocIIgQrusfFZkJxI3pdNAEl4N161Nvrs7KO1oDTp4J3ggf+Oi9SzrChLn9TtkHZ7sTSl4+VOV2VvAM2SSH6a2P9VfigbMt3WdN91prtHsK2/KVHE2zmnO8u9zhACvTsD3d0OMHryXBYJTZ+0Bm2bDpoFWwY4NgL7IzRJu2nc/V1b5tvAFKOHpQ592OO0FnTVNWrihyfDeFq7UoRx+z3lOhI8CRx7tLto4ssuvTEDNY5OTUqH+EjcMQUKtoHTch1fm5vouZLwGbKHMgIVQB9mJwrEMMMoKBIJTe6G3K8RAx16RloB+O1xYwQVCjDVb4znm+JQE5Gaa022LwVjSLGwAgz3UPIGS7tfnZOGIpf2Z1DOcJjTb6s9xixXbhLnppgPz79M0s/plrXFau83x5hRKzXqpc7gZjjvNCsiAJPwtl6xwXZM8lTpub2OR/+mRIEWm7Ggbu4I0trYa1b4r0c6lhxGY4X4ekr2Fs7a+psX5ty81WflVoavGiDJk181ewmYZ10x4MBOKhLTvSbT1vw9Muo3FIeCVZBOIIyvh0xuaiv8Yh4sPkDqtdX7fJTbEvVNy4aSrXiPm9QbuW7d75IKZ8ifqAzIj0Tk32ngsvU+9rKqhFHgQ/L9Vp+yt/SIUf8CGS9ExVZ8agBKDG/l0imTaYWMqqkrOKQhurjc5xDKaxCf/hJfGOM06ulfA2yIk+khqqI8LXwLKBE2lBXVlcSebDRftTH1V4KzfNc2rXDtfn+fJdyjscNnYLpnt25Bht+kj9cgwsyImnuCLMWM3zm42BAwCjBJu8dQt2xrs5APoAB+UpvyXbdBg/67BQvWCLU6ZVLP+XfkShEC91JXdU6I9EtTtzs0KL02mESo/+cvXgCQP718tF74rjHHUC19kqjflUqE8VkNqNCr7dXkVqWNAhp2Ohc2Xbcuhev48rcrHUTiPYAqE2hxMYXe0WRzJwZe7my+SNjazGEjgGTqXpgLYmaHtOG9BRpu6eSfwEfmFIoM4hJIbG5RsrO7Urox1Nlwqpur3lj5Ux1fhqtoNP6rjii90Re1db8rUs3V6EfUKxI+9BS4ogl+HyXjsEkBlANC0zqJXCy+jGptBICXwcaIhFHGiepDSJpnqgzYoaEONtE5ACrUcyZMxXNOPqQuNzXPtZ268PsaqB7j2uBVV4BdvEBVBQ15OMHDladxe6cyl4UhR+mq0H0dZbbacgI7xzwbtcWMwbLZM3L9AVNeMVnatMEu+01cbS9O/ABAtt/eJsv2X7NsjGFjnAT1o3W5C0gic05YMKqa2u/yw7TL0QadwTA3wjzzAK7ltWHpSeh/T9S8vdiZnprB0mceP4htVwpzSBAKz5e1VD3Grq84kk54rr66xemlFqEAuUFlPopBBg10cXHErrnd6SyRTT/PXXF3S+W9gUILEZt1jImAYcT8LPTckBlhm0hicw+akmTNRkbYmlbsmMVv0dtY6be6t2+innSiE4F7mbjSdvXA3bQ8nKKGaR8qCCfxVOSyreqQ0U6I5mwE3XaQJK3JuIeKNnw3TMLXbXuu2BkWJQVJJDMJ34D/7WYNTYv7OzCbx3Ncq0/1by4FoeuCB2/SEkV1J1FRoe6m7eqCjLD7+tiHgja9veNbJHSRLxCRxmb3K5yOcW4zrsD3hP/76TiePV+6aUpluJvyqFhOqzFcJJuUdI2CTlsiEJXo8JUra6m9guC+eFsBpQK/gHfBxcddnFbXcGtBTdNfi+v+8pUpcbkCcneI9S6MyUO8QwGaHwkZ0VCr0yWNEEsG4ZATGufAGD+FkN5B5675iFCCuClHRDXcCuQPKZ5oVY8PMuFeWslH1Bv5XbYu8bYNmOz4KZdIhk9m5aaHj9BgrjV9+Z/0eO6fa1zuimS/jdYPWp8IBcfrKF1VISTd2HhAg8IyLwS/Te5CZnh8aiJhyv5VnEkHnxCsTzvMVrCFCSXEdNOb2dnOgTA5/Ghd53ZjsvxmmBtBpBP8DYGCbrapo2I=
+</attribute>
+        <attribute name="uuidstring" type="string">65F16D7A-82F0-405E-822C-BB7E5E8EA07E</attribute>
+        <attribute name="modificationdate" type="date">410460703.48448801040649414062</attribute>
+        <attribute name="creationdate" type="date">395572058.83080601692199707031</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z143"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z230">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7HTKtcoEufl8bGkLm7gqSLro2XRqqU9lBgfl3eyPEVn2kCytUl4rmPU4RQ6P4eNiuW2F7eA9Bx5CYdRBlDhbopckpJQhEnAkez/4k6ISud7dtaqgQIdB7GpQumRd6jf5J1b3lBafSHMeeRPCSVu4hNU=
+</attribute>
+        <attribute name="uuidstring" type="string">1166F6EB-F385-4CB6-A5CF-BF945298E225</attribute>
+        <attribute name="modificationdate" type="date">410460703.47938001155853271484</attribute>
+        <attribute name="creationdate" type="date">395572058.88767999410629272461</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z176"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z231">
+        <attribute name="uuidstring" type="string">C8EC4069-3964-474C-90F0-D3146C1FF86E</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">8AACA45F-DB9E-493E-B57C-AD4CA0E23D42</attribute>
+        <attribute name="creationdate" type="date">409161272.65281200408935546875</attribute>
+    </object>
+    <object type="COLLECTION" id="z232">
+        <attribute name="name" type="string">Saturday Group</attribute>
+        <attribute name="index" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">C79BA322-BD9F-4A34-8897-F7428EAAFB27</attribute>
+        <attribute name="modificationdate" type="date">410460703.45715999603271484375</attribute>
+        <attribute name="creationdate" type="date">382536193.66514301300048828125</attribute>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+        <relationship name="favorites" type="0/0" destination="FAVORITE" idrefs="z119 z212 z108 z111 z123 z183 z117 z128 z236 z179 z195"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z233">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7OIYmj+nAlQ8n7xGifgi4iWSmGe9b1a6LwtSBmyKE6uZgJQN398FouLR/0AReIlbi97Oy3BRj1pitmUxg94auit9a6hsptwsYj90B2hpSNOkV8gclPR7bb7l21n3/jSRUQ==
+</attribute>
+        <attribute name="uuidstring" type="string">BAE3BBA6-340F-44D9-8ABE-5D9411963013</attribute>
+        <attribute name="modificationdate" type="date">410460703.47995400428771972656</attribute>
+        <attribute name="creationdate" type="date">395572058.81850701570510864258</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z187"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z234">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7FTeMCaUqoguJQGzfeWOogjuF/pFaLxC3qID1mGpeJuay9vdBY/Ajlx6x2uuZ22ZlypmmNX9+sBLksfTs5cRua+grR6DEp0a5sVz5fiUXJWcKLKn3h8YVBsd7CvfUfM8FQ==
+</attribute>
+        <attribute name="uuidstring" type="string">CB17FA83-A586-4B1E-BB9B-1DD8A5687A38</attribute>
+        <attribute name="modificationdate" type="date">410460703.47570997476577758789</attribute>
+        <attribute name="creationdate" type="date">395572058.86543101072311401367</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z146"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z235">
+        <attribute name="username" type="string">AKIAJ6FY2BKG3FT7CL7Q</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">oriflame on S3</attribute>
+        <attribute name="initialremotepath" type="string">/file-transfer-oriflame</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">11</attribute>
+        <attribute name="uuidstring" type="string">E6050132-6EE5-407E-9057-EA9A982A0D4D</attribute>
+        <attribute name="modificationdate" type="date">410460703.47731697559356689453</attribute>
+        <attribute name="creationdate" type="date">397068584.04579800367355346680</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z118"></relationship>
+    </object>
+    <object type="FAVORITE" id="z236">
+        <attribute name="username" type="string">AKIAJYT7JPZ7OQAPWYZA</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">rmo-comms on s3.amazonaws.com</attribute>
+        <attribute name="initialremotepath" type="string">file-transfer-rmo-comms</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">5</attribute>
+        <attribute name="uuidstring" type="string">CF39E3C0-EC47-474B-A200-632B549F6E5E</attribute>
+        <attribute name="modificationdate" type="date">410460703.47749102115631103516</attribute>
+        <attribute name="creationdate" type="date">402569080.24203199148178100586</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z232"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z237"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z237">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7FqUw+mh2KT+G09bDpPwouNtTzlZoGgEHFCVIia0JmqJl+nhHyCjAxgv78Nm63sQxjdunsrR0c+3e++XMfBthVm9mYLbH+gc9ZGoATR02E4barIWadWdqROdJWwUNSteoGsSpGVWKt69Fa9xySMXPEIoZKNAbYrNsOmgK0piVbiv
+</attribute>
+        <attribute name="uuidstring" type="string">CC57B47A-5563-4E06-A244-DE6342533778</attribute>
+        <attribute name="modificationdate" type="date">410460703.47753101587295532227</attribute>
+        <attribute name="creationdate" type="date">402569080.25969600677490234375</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z236"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z238">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7ELYV8DTZX3aiedkD46Rc3ijEtL4ztXlJlCF3zLNPc670ljGedY2u/Gb6EL4YUVV4pby5outkVOB0x6FgnFX4o4qJXhgSA/d/Fgsqxx5BHQmOmH86n6J43lyaaL5K3N80w==
+</attribute>
+        <attribute name="uuidstring" type="string">856FE28B-BA48-4B74-B9EB-0AD4EE011D37</attribute>
+        <attribute name="modificationdate" type="date">410460703.47810298204421997070</attribute>
+        <attribute name="creationdate" type="date">395572058.81558698415756225586</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z251"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z239">
+        <attribute name="uuidstring" type="string">E34CEC89-812A-473A-B9A0-F654F286F104</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">CA375FD7-3579-4A36-B72C-46A90B7DEADE</attribute>
+        <attribute name="creationdate" type="date">408628776.77130401134490966797</attribute>
+    </object>
+    <object type="FAVORITE" id="z240">
+        <attribute name="username" type="string">wednesday-london</attribute>
+        <attribute name="server" type="string">173.203.59.54</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">Rackspace Servers (wednesday-primary/173.203.59.54)</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">6</attribute>
+        <attribute name="uuidstring" type="string">ADF11043-E00D-4107-B74B-0BB9D15875AD</attribute>
+        <attribute name="modificationdate" type="date">410460703.47918301820755004883</attribute>
+        <attribute name="creationdate" type="date">382536193.82508397102355957031</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z169"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z241">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7B8ND7UU6odPZWa+HK8yrcKa8dIyOoBQX44nx2w3Q2U7FJWgiibWSzN9SOSro+kzbjjA0O6taOhiXVwr2m7Zr00A7ZLukOgnnb3UEOA2i4KzEFmUWpUsZswm2o5McfVvRU8DT08IDP312TuuJ4pOW1105U/xoobg0miwzi3LVaYP
+</attribute>
+        <attribute name="uuidstring" type="string">23F5C8A2-8A35-4767-A4A8-DD89F768DC51</attribute>
+        <attribute name="modificationdate" type="date">410460703.48242497444152832031</attribute>
+        <attribute name="creationdate" type="date">395572058.85323697328567504883</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z126"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z242">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AP5MmuFpmUMX9fVZPGcYyPbpLz2Ygn3XQ8OyJEhmYuVlLgpX2JG06WmL5yjwPXS0njXDGRoBX6zfyenkACcxCKmVmVsUfWzTZKb6z48r3wGYnLAj2ND5Q4jf2tU2uzYFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">F904F59B-B6F6-4D75-8240-128509C633D6</attribute>
+        <attribute name="modificationdate" type="date">410460703.47157597541809082031</attribute>
+        <attribute name="creationdate" type="date">395572058.82358199357986450195</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z228"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z243">
+        <attribute name="username" type="string">ms</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">ms at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">7</attribute>
+        <attribute name="uuidstring" type="string">3022A4B2-E15C-4EF5-A6F2-C7EEE7D05A72</attribute>
+        <attribute name="modificationdate" type="date">410460703.47306001186370849609</attribute>
+        <attribute name="creationdate" type="date">388512852.59215497970581054688</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z157"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z244">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7AP5MmuFpmUMX9fVZPGcYyPbpLz2Ygn3XQ8OyJEhmYuVlLgpX2JG06WmL5yjwPXS0njXDGRoBX6zfyenkACcxCKmVmVsUfWzTZKb6z48r3wGYnLAj2ND5Q4jf2tU2uzYFQ==
+</attribute>
+        <attribute name="uuidstring" type="string">CE1B37A0-6EC7-4DFE-A75C-56E01E28812C</attribute>
+        <attribute name="modificationdate" type="date">410460703.47442400455474853516</attribute>
+        <attribute name="creationdate" type="date">402885345.98938000202178955078</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z179"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z245">
+        <attribute name="username" type="string">the-elder-statesman</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">the-elder-statesman at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">3</attribute>
+        <attribute name="uuidstring" type="string">684B197E-AE94-4E4D-88A0-90216D7C10FC</attribute>
+        <attribute name="modificationdate" type="date">410460703.47351199388504028320</attribute>
+        <attribute name="creationdate" type="date">387136229.72347402572631835938</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z180"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z246">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7NkrPWjoRYzEeogikgnqR+wrXESzHHoAcEUSTPxQ1NHwOenpin8Uq0IzL7KX065Z1ebHYBc5vXmn7GFId+rvLjy3Knk9inxJxSPPaQJHkpRV7HqqcEOH706pFJTt6zya+w==
+</attribute>
+        <attribute name="uuidstring" type="string">ED624E4B-89E1-4CB1-B22F-D6C5073228B7</attribute>
+        <attribute name="modificationdate" type="date">410460703.48218297958374023438</attribute>
+        <attribute name="creationdate" type="date">395572058.87896597385406494141</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z198"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z247">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7Ai0QhcWktWGgzGzWcy4lPi7DzcpmTJivCmK+GaDXE7ZAt7ff2ImPWHdp3szShom5JXiCcvEV5vjqiEzrCn/0BcrG8NYdZ6JbjLQi0KIeBpaq4+N1Wkk3SEk7paK24Ducw==
+</attribute>
+        <attribute name="uuidstring" type="string">9091A75F-43BE-4273-B3ED-A80849BE7D6B</attribute>
+        <attribute name="modificationdate" type="date">410460703.48091900348663330078</attribute>
+        <attribute name="creationdate" type="date">395572058.82201898097991943359</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z113"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z248">
+        <attribute name="username" type="string">AKIAIE4F7H2VXIFKVFVQ</attribute>
+        <attribute name="server" type="string">s3.amazonaws.com</attribute>
+        <attribute name="protocol" type="string">S3</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">kent-curwen on S3</attribute>
+        <attribute name="initialremotepath" type="string">/file-transfer-kent-curwen</attribute>
+        <attribute name="initiallocalpath" type="string">/Users/Karl</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">13</attribute>
+        <attribute name="uuidstring" type="string">5C89C56C-3D73-4403-9866-2454ED7712EA</attribute>
+        <attribute name="modificationdate" type="date">410460703.47865402698516845703</attribute>
+        <attribute name="creationdate" type="date">397152311.37713998556137084961</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z105"></relationship>
+    </object>
+    <object type="FAVORITE" id="z249">
+        <attribute name="username" type="string">lindex</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">lindex at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">8FBB9667-D19B-4405-83A7-B4965F48EB3F</attribute>
+        <attribute name="modificationdate" type="date">410460703.47386997938156127930</attribute>
+        <attribute name="creationdate" type="date">387197428.02113497257232666016</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z125"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z250">
+        <attribute name="uuidstring" type="string">25723C24-6C47-4B47-80AF-A424D8A229A2</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">D711BEAD-4E98-45FC-B502-D0F44B8286F1</attribute>
+        <attribute name="creationdate" type="date">409784147.71808797121047973633</attribute>
+    </object>
+    <object type="FAVORITE" id="z251">
+        <attribute name="username" type="string">brothersadmin</attribute>
+        <attribute name="server" type="string">itrak.se</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">21</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">Brothers</attribute>
+        <attribute name="initialremotepath" type="string">/</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">1179515E-D09B-4551-AD60-00ACBAA263C3</attribute>
+        <attribute name="modificationdate" type="date">410460703.47808301448822021484</attribute>
+        <attribute name="creationdate" type="date">382536195.56916999816894531250</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z193"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z238"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z252">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7OGpGBTqQgKJ+eniNO4C4FyOx2wxjnj5hbhNOD3U7PK/OEpdEk3t/5iaWv9yW4TqF+7gdbKG/U34eeQz/x9ROMJW5nzch/XUjXwvy8o/E73ETOFRI5nXLKJuG4V+H7lsyzLZ57Foi07XAUmgo/rOuwkSJqD+6bYdWH1wrQ+sInTT
+</attribute>
+        <attribute name="uuidstring" type="string">5A2A2A26-BD50-4E77-B71B-3FEDF5C10550</attribute>
+        <attribute name="modificationdate" type="date">410460703.48304301500320434570</attribute>
+        <attribute name="creationdate" type="date">395572058.84314000606536865234</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z204"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="FAVORITE" id="z253">
+        <attribute name="username" type="string">hm</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">hm at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">6</attribute>
+        <attribute name="uuidstring" type="string">3FD0657F-F484-4CA7-8602-1001F6ECBBC1</attribute>
+        <attribute name="modificationdate" type="date">410460703.47677600383758544922</attribute>
+        <attribute name="creationdate" type="date">382536193.98982602357864379883</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z116"></relationship>
+    </object>
+    <object type="FAVORITE" id="z254">
+        <attribute name="username" type="string">gucci</attribute>
+        <attribute name="server" type="string">ftp1.wednesdayagency.com</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">gucci at ftp1.wednesdayagency.com</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">5</attribute>
+        <attribute name="uuidstring" type="string">D539B98A-5E9D-4D08-9CE8-3F160BBBDC4E</attribute>
+        <attribute name="modificationdate" type="date">410460703.47422897815704345703</attribute>
+        <attribute name="creationdate" type="date">382536193.93484598398208618164</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z156"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z174"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z255">
+        <attribute name="uuidstring" type="string">FBD681D4-EA20-49D6-9D4A-05218092E8C2</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">10BC0FD1-DF2B-4B80-BCF5-F0E9A99C7E47</attribute>
+        <attribute name="creationdate" type="date">410460719.68916398286819458008</attribute>
+    </object>
+    <object type="SYNCRECORD" id="z256">
+        <attribute name="uuidstring" type="string">A45100FD-0FB1-4461-B2A4-C3E1F89DC05A</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">138F78A2-A862-487A-9E67-2159CF2D9FBB</attribute>
+        <attribute name="creationdate" type="date">410460742.93216198682785034180</attribute>
+    </object>
+    <object type="FAVORITE" id="z257">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">166.78.238.226</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">root@staging.wednesdayagency.com (166.78.238.226)</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites</attribute>
+        <attribute name="haspassword" type="bool">0</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">2</attribute>
+        <attribute name="uuidstring" type="string">38847BF0-8199-4788-A92C-020B4A413032</attribute>
+        <attribute name="modificationdate" type="date">410893610.15911298990249633789</attribute>
+        <attribute name="creationdate" type="date">410460956.54824000597000122070</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z102"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SECUREATTRIBUTE" id="z259">
+        <attribute name="key" type="string">password</attribute>
+        <attribute name="data" type="binary">lS1PiJ6kCaVgOwnddRnv2Eb7ZdjU5Kz898R8+/scJnt0zSQWLgkwTH2drRtKWZARyiz2Ci5SUWj4
+xNffdMGL7PvF35IJBE7lsfCb0MlbFMuvoHno1yceEM9nUfNWKmh0itqNcF5U6l0DpZV5TA3jxxxigLpdEQXLlx4AYI1H+99dxS++g0R0Mj5bfksyT2/sC+wbrCOtNUADxHMpC8qduw==
+</attribute>
+        <attribute name="uuidstring" type="string">790AF356-9FE8-4B06-AB6C-C41DB53E928A</attribute>
+        <attribute name="modificationdate" type="date">410698494.53531700372695922852</attribute>
+        <attribute name="creationdate" type="date">410698494.52667599916458129883</attribute>
+        <relationship name="object" type="1/1" destination="OBJECT" idrefs="z261"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+    <object type="SYNCRECORD" id="z260">
+        <attribute name="uuidstring" type="string">FDE2C658-3D3C-4B41-9BFB-CEEA21DBEA58</attribute>
+        <attribute name="type" type="int16">2</attribute>
+        <attribute name="objectuuidstring" type="string">47326353-186D-47F3-8C3F-811844B0CF22</attribute>
+        <attribute name="creationdate" type="date">410698494.53561300039291381836</attribute>
+    </object>
+    <object type="FAVORITE" id="z261">
+        <attribute name="username" type="string">root</attribute>
+        <attribute name="server" type="string">198.61.230.164</attribute>
+        <attribute name="protocol" type="string">SFTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">0</attribute>
+        <attribute name="nickname" type="string">root@alpha.wednesdayagency.com (198.61.230.164)</attribute>
+        <attribute name="initialremotepath" type="string">/var/www/</attribute>
+        <attribute name="initiallocalpath" type="string">~/Sites</attribute>
+        <attribute name="haspassword" type="bool">1</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">1</attribute>
+        <attribute name="uuidstring" type="string">04C6E6DD-7ADB-448E-A7D0-93598BFE8FF0</attribute>
+        <attribute name="modificationdate" type="date">410893610.15911298990249633789</attribute>
+        <attribute name="creationdate" type="date">410698494.52619397640228271484</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z102"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE" idrefs="z259"></relationship>
+    </object>
+    <object type="FAVORITE" id="z262">
+        <attribute name="username" type="string">kc@kentandcurwen.us.com</attribute>
+        <attribute name="server" type="string">kentandcurwen.us.com</attribute>
+        <attribute name="protocol" type="string">FTP</attribute>
+        <attribute name="promptforpassword" type="bool">0</attribute>
+        <attribute name="port" type="int32">0</attribute>
+        <attribute name="passivemodeenabled" type="bool">1</attribute>
+        <attribute name="nickname" type="string">kentandcurwen.us.com</attribute>
+        <attribute name="haspassword" type="bool">0</attribute>
+        <attribute name="hasidentity" type="bool">0</attribute>
+        <attribute name="folderlinkingenabled" type="bool">0</attribute>
+        <attribute name="docksendenabled" type="bool">0</attribute>
+        <attribute name="collectionindex" type="int32">0</attribute>
+        <attribute name="uuidstring" type="string">BDD5D895-E351-415C-86C1-3E971D4DC183</attribute>
+        <attribute name="modificationdate" type="date">410893610.15911298990249633789</attribute>
+        <attribute name="creationdate" type="date">410893610.12888300418853759766</attribute>
+        <relationship name="collection" type="1/1" destination="COLLECTION" idrefs="z102"></relationship>
+        <relationship name="secureattributes" type="0/0" destination="SECUREATTRIBUTE"></relationship>
+    </object>
+</database>
